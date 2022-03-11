@@ -1,0 +1,503 @@
+<!-- 
+    Devetih sat vremena,
+    pokusavala napraviti responsive design..
+
+
+   
+
+-->
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    
+    <title>
+        RESUME OF ARIJANA KRNJIC
+        </title>
+
+    <style>
+
+        @media (min-width: 768px) {
+            
+            body {
+                max-width: 100%;
+                height: auto;
+            }
+            
+        }
+    
+    
+    body {
+            background-color: #80aaff;
+            color: #000033;
+            font-family: "Cambria";
+       
+        
+        }
+
+    
+
+        h1 {
+            font-family: "Cambria";
+            font-style: italic;
+            color: #000066;
+            font-size: 52px;
+            text-align: center;
+            box-shadow: 0 15px 10px;
+            position: relative;
+
+            animation-name: anime-h;
+            animation-duration: 20s;
+
+            
+        }
+
+        @keyframes anime-h {
+                0% {
+                    top: 50px;
+                    
+                }
+                50% {
+                    top: 0px;
+                    
+                }
+                100% {
+                    top: 50px;
+                    
+                }
+            }
+
+        
+
+        h2 {
+            font-family: "Cambria";
+            font-style: italic;
+            color: #b30000;
+            font-size: 27px;
+            text-align: center;
+        }
+
+        .desc {
+            font-family: "Cambria";
+            font-style: italic;
+            color: #000033;
+            
+            text-align: center;
+            font-size: 21px;
+        }
+
+        .pers-info {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            margin: 15px;
+            padding: 60px;
+            font-size: 18px;
+            width: 170px;
+            
+
+            animation-name: anime-one;
+            animation-duration: 20s;
+            
+        }
+
+        @keyframes anime-one {
+            0% {
+                background-color: red;
+
+            }
+            50% {
+                background-color: yellow;
+            }
+            100% {
+                background-color: red;
+            }
+        }
+
+        .pers-info:hover {
+            background: orange;
+        }
+
+        .edu {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            margin: 15px;
+            padding: 60px;
+            font-size: 18px;
+            width: 170px;
+            position: relative;
+
+            animation-name: anime-two;
+            animation-duration: 20s;
+            
+            
+            
+            
+        }
+
+        @keyframes anime-two {
+            0% {
+                background-color: red;
+                
+                
+            }
+            50% {
+                background-color: yellow;
+                
+                
+            }
+            100% {
+                background-color: red;
+                
+                
+            }
+        }
+
+        .edu:hover {
+            background: orange;
+        }
+
+        .exp {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            margin: 15px;
+            padding: 60px;
+            font-size: 18px;
+            width: 300px;
+            position: relative;
+
+            
+            
+            
+            }
+
+            
+
+        .exp:hover {
+            background: orange;
+        }
+
+        .pers-int {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            margin: 10px;
+            padding: 50px;
+            font-size: 18px;
+            width: 170px;
+            position: relative;
+
+            animation-name: anime-int;
+            animation-duration: 20s;
+           
+
+            }
+
+        @keyframes anime-int {
+            0% {background-color: red;}
+            50% {background-color: yellow;}
+            100% {background-color: red;}
+        }
+
+       
+            
+
+
+        .pers-int:hover {
+            background: orange;
+        }
+
+        .lang {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            margin: 10px;
+            padding: 50px;
+            font-size: 18px;
+            width: 170px;
+            position: relative;
+
+            animation-name: anime-lang;
+            animation-duration: 20s;
+
+            
+            
+            
+            
+        }
+
+        @keyframes anime-lang {
+            0% {background-color: red;}
+            50% {background-color: yellow;}
+            100% {background-color: red;}
+        }
+
+        
+
+        .lang:hover {
+            background: orange;
+        }
+
+        .flex-parent {
+            
+            
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            
+            
+            
+        
+        }
+
+        #flex-parent-two {
+            display: flex;
+        
+            justify-content: space-evenly;
+            flex-direction: row;
+            
+            
+            
+            
+
+        }
+
+        #personal-information {
+            margin: 17px;
+            padding: 1px;
+            color: #000066;
+        }
+
+        #education {
+            margin: 17px;
+            padding: 1px;
+            color: #000066;
+
+        }
+
+        #personal-interests {
+            margin: 17px;
+            padding: 1px;
+            color: #000066;
+            
+        }
+
+        #languages {
+            margin: 17px;
+            padding: 1px;
+            color: #000066;
+
+        }
+
+        #experience {
+            margin: 17px;
+            padding: 1px;
+            color: #000066;
+
+        }
+
+
+
+
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .skills {
+            color: #000066;
+            font-family: "Cambria";
+            text-align: center;
+            border: 10px solid #ffff66;
+            
+            margin: 10px;
+            padding: 50px;
+            
+            font-size: 18px;
+            width: 170px;
+
+            animation-name: anime-skill;
+            animation-duration: 20s;
+
+          
+            
+            
+            
+            
+            
+        }
+
+        @keyframes anime-skill {
+            0% {background-color: red;}
+            50% {background-color: yellow;}
+            100% {background-color: red;}
+        }
+
+        
+            }
+
+        .skills:hover {
+            background: orange;
+        }
+
+
+        #myskills {
+            color: #000066;
+            font-size: 20px;
+            text-align: center;
+            font-family: "Cambria";
+            
+
+        }
+
+
+        
+
+
+        
+
+        
+
+    
+
+
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <h1>
+        <strong>RESUME</strong>
+    </h1>
+    <br>
+    <h2>
+        Arijana Krnjic
+    </h2>
+
+    <p class="desc">Final year student who in his near future, with a lot of work and passion, 
+        wants to secure a nice job in the IT sector.</p>
+        <p class="desc"><strong>I am always ready to learn!</strong></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="flex-parent">
+    
+    <ul class="pers-info">
+        <h4 id="personal-information">PERSONAL INFORMATION</h4>
+        <li>Adress: Stupine B6/4</li>
+        <li>State: Bosnia and Herzegovina</li>
+        <li>Phone: 061/666-123</li>
+        <li>E-mail address: krnjicarijana3@gmail.com</li>
+        <li>Date of birth: 16.02.1995.</li>
+    </ul>
+
+
+    
+    
+    
+
+    <ul class="edu">
+        <h4 id="education">EDUCATION</h4>
+        <li>University: University of Tuzla</li>
+        <li>Faculty: Faculty of Natural Sciences and Mathematics</li>
+        <li>Department: Applied mathematics</li>
+        <li>Diploma: Bachelor of applied mathematics</li>
+    </ul>
+</div>
+
+
+
+    <br>
+
+
+   
+<div class="flex">
+<div class="exp">
+    <h4 id="experience">EXPERIENCE</h4>
+    <p> 
+        Teaching live and online math.
+    </p> 
+    
+    <p>
+        I was a participant in NGOs.
+        </p
+    <p>
+        From my desire to help new generations and to present them math terms as simple and interesting,
+        during the corona period,<br>
+        trough online tutoring program for <strong>Bosnia and Herzegovina Future Foundation</strong>, <br>
+        I was a tutor of math classes.
+    </p>
+    <a href="https://m.facebook.com/bhfuturesfoundation/photos/a.1815669768712323/2593300060949286/?type=3&source=57&__tn__=EH-R">Tutor of math classes</a>
+</div>
+</div>
+
+
+    <br>
+    
+    
+    <div id="flex-parent-two">
+    
+        <ul class="pers-int">
+        <h4 id="personal-interests">PERSONAL INTERESTS</h4>
+        <li>Alpinism</li>
+        <li>Reading books</li>
+        <li>Sport climbing</li>
+        <li>Cycling</li>
+        <li>Rollerblading</li>
+        <br>
+        <a href="https://www.facebook.com/groups/196950441090557/posts/930781334374127/">Cetina, Prenj</a>
+    </ul>
+
+
+
+
+    <ul class="lang">
+        <h4 id="languages">LANGUAGES</h4>
+        <li>English</li>
+        <li>Bosnian</li>
+    </ul>
+
+
+
+<ul class="skills">
+<h4 id="myskills"><strong>SKILLS</strong></h4>
+<li>Communicative</li>
+<li>Persistent</li>
+<li>Resourceful</li>
+<li>Team player</li>
+<li>Flexible</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
